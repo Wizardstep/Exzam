@@ -2,6 +2,9 @@
   padding: 0;
   margin: 0; }
 
+body {
+  background-color: #eaeaea; }
+
 .nav {
   height: 100vh;
   background-color: #f6f6f6;
@@ -111,3 +114,52 @@ h4 {
   background-repeat: no-repeat;
   background-size: 17px 17px;
   background-position: 9px center; }
+
+.content {
+  margin-left: 161px; }
+  .content h3 {
+    font-size: 22px;
+    padding-top: 20px;
+    margin-left: 25px; }
+
+.top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around; }
+  .top .first {
+    width: 21%;
+    height: 150px;
+    background-color: #f6f6f6;
+    margin-top: 60px;
+    background-image: url(../icons/space.png);
+    background-repeat: no-repeat;
+    background-size: 70px 70px;
+    background-position: 10px 10px; }
+    .top .first .txt {
+      float: right; }
+  .top .first1 {
+    width: 21%;
+    height: 150px;
+    background-color: #f6f6f6;
+    margin-top: 60px;
+    background-image: url(../icons/space.png);
+    background-repeat: no-repeat;
+    background-size: 70px 70px; }
+  .top .first2 {
+    width: 21%;
+    height: 150px;
+    background-color: #f6f6f6;
+    margin-top: 60px;
+    background-image: url(../icons/space.png);
+    background-repeat: no-repeat;
+    background-size: 70px 70px; }
+  .top .first3 {
+    width: 21%;
+    height: 150px;
+    background-color: #f6f6f6;
+    margin-top: 60px;
+    background-image: url(../icons/space.png);
+    background-repeat: no-repeat;
+    background-size: 70px 70px; }
