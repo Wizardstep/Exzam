@@ -85,9 +85,18 @@ margin-bottom: 50px;}
 
 }
 
+@-moz-document url-prefix(){
 
+.top .first{
+    height: 153px;}
+.top .first1{
+    height: 153px;}
+.top .first2{
+    height: 153px;}
+.top .first3{
+    height: 153px;}
 
-
+}
 
 
 /* Medium Devices, Desktops */
