@@ -483,3 +483,6 @@ hr {
         font-size: 13px; }
       .footertxt ul li a:hover {
         text-decoration: underline; }
+
+.hamburger-menu {
+  display: none; }

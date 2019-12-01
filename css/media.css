@@ -187,7 +187,7 @@ margin-bottom: 50px;}
 .menu__btn {
   display: flex; /* используем flex для центрирования содержимого */
   align-items: center;  /* центрируем содержимое кнопки */
-  position: fixed;
+  position: relative;
   top: 20px;
   left: 20px;
   width: 26px;
@@ -226,7 +226,6 @@ margin-bottom: 50px;}
   margin: 0;
   padding: 80px 0;
   list-style: none;
-  text-align: center;
   background-color: #ECEFF1;
   box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
 }
@@ -241,7 +240,7 @@ margin-bottom: 50px;}
   text-decoration: none;
 }
 .menu__item:hover {
-  background-color: #CFD8DC;
+  background-color: #c32056;
 }
 #menu__toggle:checked ~ .menu__btn > span {
   transform: rotate(45deg);
@@ -259,9 +258,45 @@ margin-bottom: 50px;}
   left: 0;
 }
 
-.navvv{z-index: 999}
 
-.content{z-index: 990}
+.menu__box{z-index: 1;
+width: 169px}
+
+.content{z-index: -1}
+
+.menu__btn{z-index: 2;}
+
+
+.nav2{display: flex;}
+
+.menu__btn {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 2px;
+    left: 16px;}
+
+
+.hamburger-menu{
+	display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
