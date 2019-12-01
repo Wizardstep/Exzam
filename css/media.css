@@ -1,7 +1,33 @@
 /*==========  Desktop First Method  ==========*/
 
 /* Large Devices, Wide Screens */
-@media only screen and (max-width : 1200px) {
+@media (max-width : 12340px) {
+.fim{
+	width: 3%;
+	margin-left: 8%;
+	margin-top: 11px}
+
+.fim2{
+	width: 3%;
+	margin-left: 2%}
+
+.forma{
+	margin-left: 6%;
+	margin-right: 2%}
+	
+.letleft{
+	margin-left: 11%
+}
+
+
+.fsz{
+   font-size: 50%
+}
+
+
+.frr{
+	width: 85%
+}
 
 }
 

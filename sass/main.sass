@@ -1,9 +1,16 @@
+
+%shadow
+  box-shadow: 4px 4px 2px #c3c3c3
+
+
 *
  padding: 0
  margin: 0
 
 body
 	background-color: #eaeaea
+	height: 1000px
+	
 
 .nav
 	height: 100vh
@@ -108,7 +115,9 @@ h4
 	background-position: 9px center
 
 .content
-	margin-left: 161px
+	margin-left: 177px
+	margin-right: 10px
+	
 	h3
 	 font-size: 22px
 	 padding-top: 20px
@@ -117,41 +126,244 @@ h4
 .top
 	display: flex
 	justify-content: space-around
+	.icn
+	  width: 23%
+	  position: relative
+	  top: -19px
+	  left: 20px
 	.first
-	 width: 21%
-	 height: 150px
+	 width: 23.5%
+	 height: 138px
 	 background-color: #f6f6f6
 	 margin-top: 60px
-	 background-image: url(../icons/space.png)
-	 background-repeat: no-repeat
-	 background-size: 70px 70px
-	 background-position: 10px 10px
-		.txt
-		  float: right	 
+	 @extend %shadow
+	a
+	 text-decoration: none
+	 display: flex
+	 align-self: center
+	a:hover
+	 text-decoration: underline
+		
 
 	.first1
-	 width: 21%
-	 height: 150px
+	 width: 23.5%
+	 height: 138px
 	 background-color: #f6f6f6
 	 margin-top: 60px
-	 background-image: url(../icons/space.png)
-	 background-repeat: no-repeat
-	 background-size: 70px 70px
+	 @extend %shadow	
 
 	.first2
-	 width: 21%
-	 height: 150px
+	 width: 23.5%
+	 height: 138px
 	 background-color: #f6f6f6
 	 margin-top: 60px
-	 background-image: url(../icons/space.png)
-	 background-repeat: no-repeat
-	 background-size: 70px 70px
+	 @extend %shadow
 
 	.first3
-	 width: 21%
-	 height: 150px
+	 width: 23.5%
+	 height: 138px
 	 background-color: #f6f6f6
 	 margin-top: 60px
-	 background-image: url(../icons/space.png)
-	 background-repeat: no-repeat
-	 background-size: 70px 70px
+	 @extend %shadow
+	 	
+.txt
+	float: right
+	display: flex
+	flex-direction: column
+	align-items: flex-end
+	margin-top: 10px
+	margin-right: 10px
+	span
+		float: right
+		font-size: 30px		 	
+hr
+ width: 91%
+ background-color: #e5e5e5
+ margin-left: 5%
+
+
+.foot
+	list-style-type: none
+	display: flex
+	align-items: center
+	margin-top: 8px
+	margin-left: 26px
+	.icnfoot
+	 width: 17px
+	 margin-right: 8px
+	.tlb
+	  font-size: 14px
+	  color: #b3bcc5
+
+.foot2
+	list-style-type: none
+	display: flex
+	align-items: center
+	margin-top: 28px
+	margin-left: 26px
+	.icnfoot2
+	 width: 17px
+	 margin-right: 10px
+	.tlb2
+	  font-size: 14px
+	  color: #b3bcc5
+
+.foot3
+	list-style-type: none
+	display: flex
+	align-items: center
+	margin-top: 28px
+	margin-left: 20px
+	.icnfoot3
+	 width: 17px
+	 margin-right: 10px
+	.tlb3
+	  font-size: 14px
+	  color: #b3bcc5
+
+.foot4
+	list-style-type: none
+	display: flex
+	align-items: center
+	margin-top: 28px
+	margin-left: 26px
+	.icnfoot4
+	 width: 17px
+	 margin-right: 10px
+	.tlb4
+	  font-size: 14px
+	  color: #b3bcc5
+
+
+.center
+	display: flex
+	justify-content: space-around
+	margin-top: 60px
+	.immg
+	  width: 87%
+	  height: 157px
+	  position: relative
+	  top: -29px
+	  left: 6.5%
+
+.cent1
+	@extend %shadow
+	width: 32%
+	height: 250px
+	background-color: #f6f6f6
+
+.cent2
+	@extend %shadow
+	width: 32%
+	height: 250px
+	background-color: #f6f6f6
+.cent3
+	@extend %shadow
+	width: 32%
+	height: 250px
+	background-color: #f6f6f6
+
+.ttx
+	font-size: 20px
+	margin-left: 5%
+	color: #71757d
+.ttx2
+	font-size: 16px
+	margin-left: 5%
+	color: #71757d
+
+
+.fmd
+	display: flex
+	align-self: center
+	margin-left: 5%
+	font-size: 13px
+	color: #71757d
+
+.nbv
+	width: 15px
+	margin-right: 8px
+
+.upline
+	margin-top: -10px
+	margin-bottom: 10px
+
+.footer
+	display: flex
+	justify-content: space-around
+	margin-top: 60px
+
+.fot1
+	width: 47%
+	height: 300px
+	background-color: #f6f6f6
+	@extend %shadow
+
+
+
+.fot2
+	width: 47%
+	height: 300px
+	background-color: #f6f6f6
+	@extend %shadow
+.yellow
+	width: 90%
+	height: 70px
+	background-color: #d89e24
+	margin-left: 5%
+	position: relative
+	top: -20px
+
+.blue
+	width: 90%
+	height: 80px
+	background-color: #274d97
+	margin-left: 5%
+	position: relative
+	top: -20px
+.list2
+	list-style-type: none
+	display: flex
+	position: relative
+	top: 16px
+	left: 4%
+	li
+	 margin-right: 2%
+	 display: flex
+	 align-self: center
+	 color: white
+		img
+		 margin-right: 7%
+		a
+		 display: flex
+		 align-self: center
+		 padding: 8px 13px 9px 12px
+		 color: white
+		 text-decoration: none
+		a:hover
+		  background-color: #dead49
+.alt2
+ background-color: #dead49	
+
+.fim
+	width: 3%
+	margin-left: 8%
+	margin-top: 11px
+
+.fim2
+	width: 3%
+	margin-left: 2%
+
+.forma
+	margin-left: 9%
+	margin-right: 2%
+	
+.letleft
+	margin-left: 14%
+
+.fsz
+   font-size: 100%
+
+
+.frr
+	width: 100%
