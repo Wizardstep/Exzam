@@ -1,7 +1,7 @@
 /*==========  Desktop First Method  ==========*/
 
 /* Large Devices, Wide Screens */
-@media (max-width : 12340px) {
+@media (min-width: 1200px) and (max-width: 1245px) {
 .fim{
 	width: 3%;
 	margin-left: 8%;
@@ -21,20 +21,247 @@
 
 
 .fsz{
-   font-size: 50%
+   font-size: 80%
 }
 
 
-.frr{
-	width: 85%
-}
 
 }
+
+
+@media (min-width: 800px) and (max-width: 1000px) {
+
+
+.top{
+	flex-wrap: wrap;
+	display: flex;}
+.first{
+	 width: 44% !important}
+	
+
+.first1{
+	 width: 44% !important}
+		
+
+.first2{
+	 width: 44% !important}
+	
+
+.first3{
+	 width: 44% !important}
+.cent1, .cent2, .cent3 {
+    width: 31%;
+    height: 269px;}	
+.media{margin-left: 10px;}
+
+.upline{width: 195px;} 
+
+.footer{display: flex;
+flex-wrap: wrap;}
+
+.fot1, .fot2{width: 90%;
+margin-bottom: 50px;}
+
+.fsz{
+   font-size: 100% ! important}
+.fim{margin-left: 10% !important;}
+
+.table ul li:nth-child(3) {
+    margin-left: 12%;}
+.table ul li:nth-child(4) {
+    margin-left: 9%;}
+.table ul li:nth-child(2) {
+    margin-left: 9%;}
+.table ul li:nth-child(3) {
+    margin-left: 13%;}
+.table ul li:nth-child(4) {
+    margin-left: 14%;}
+.f2 {margin-left: 8% !important;
+;}
+.f4{padding-left: 35px}
+
+}
+
+
+
+
+
 
 /* Medium Devices, Desktops */
-@media only screen and (max-width : 992px) {
+@media (max-width : 1199px) {
+ .fsz{
+   font-size: 70%
+}
+}
+
+
+@media (max-width : 1099px) {
+ .fsz{
+   font-size: 70%}
+.fim{
+ margin-left: 3%
+}
+
+.f3{
+  margin-left: 19% !important
+}
+.f4{
+  margin-left: 11% !important
+}
 
 }
+@media (min-width: 800px) and (max-width: 838px) { 
+.fsz{
+   font-size: 80% !important}
+.footertxt ul {
+    list-style-type: none;
+    width: 33%;}
+}
+
+@media (min-width: 650px) and (max-width: 800px) {
+
+
+.nav{display: none;}
+
+.content {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.footer{display: flex;
+flex-wrap: wrap;}
+
+.fot1, .fot2{width: 90%;
+margin-bottom: 50px;}
+
+.fsz{
+   font-size: 80% !important}
+.footertxt ul {
+    list-style-type: none;
+    width: 33%;}
+
+.fim {
+    margin-left: 20%;}
+
+.top{
+	flex-wrap: wrap;
+	display: flex;}
+.first{
+	 width: 44% !important}
+	
+
+.first1{
+	 width: 44% !important}
+		
+
+.first2{
+	 width: 44% !important}
+	
+
+.first3{
+	 width: 44% !important}
+
+.upline {
+    width: 176px;}
+
+.cent1, .cent2, .cent3 {
+    width: 31%;
+    height: 270px;}	
+.media{margin-left: 10px;}
+
+.table ul li:nth-child(3) {
+    margin-left: 11%;}
+
+.table ul li:nth-child(4) {
+    margin-left: 9%;}
+
+}
+
+
+/*----------------------------gamburger-------------*/
+/* скрываем чекбокс */
+#menu__toggle {
+  opacity: 0;
+}
+/* стилизуем кнопку */
+.menu__btn {
+  display: flex; /* используем flex для центрирования содержимого */
+  align-items: center;  /* центрируем содержимое кнопки */
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+  z-index: 1;
+}
+/* добавляем "гамбургер" */
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #616161;
+}
+.menu__btn > span::before {
+  content: '';
+  top: -8px;
+}
+.menu__btn > span::after {
+  content: '';
+  top: 8px;
+}
+
+/* контейнер меню */
+.menu__box {
+  display: block;
+  position: fixed;
+  visibility: hidden;
+  top: 0;
+  left: -100%;
+  width: 300px;
+  height: 100%;
+  margin: 0;
+  padding: 80px 0;
+  list-style: none;
+  text-align: center;
+  background-color: #ECEFF1;
+  box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+}
+/* элементы меню */
+.menu__item {
+  display: block;
+  padding: 12px 24px;
+  color: #333;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.menu__item:hover {
+  background-color: #CFD8DC;
+}
+#menu__toggle:checked ~ .menu__btn > span {
+  transform: rotate(45deg);
+}
+#menu__toggle:checked ~ .menu__btn > span::before {
+  top: 0;
+  transform: rotate(0);
+}
+#menu__toggle:checked ~ .menu__btn > span::after {
+  top: 0;
+  transform: rotate(90deg);
+}
+#menu__toggle:checked ~ .menu__box {
+  visibility: visible;
+  left: 0;
+}
+
+.navvv{z-index: 999}
+
+.content{z-index: 990}
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
