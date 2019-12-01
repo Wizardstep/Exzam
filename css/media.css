@@ -31,7 +31,10 @@
 
 @media (min-width: 800px) and (max-width: 1000px) {
 
-
+.footertxt ul {
+    list-style-type: none;
+    width: 35%;
+}
 .top{
 	flex-wrap: wrap;
 	display: flex;}
@@ -118,6 +121,12 @@ margin-bottom: 50px;}
     width: 33%;}
 }
 
+
+
+
+
+
+
 @media (min-width: 650px) and (max-width: 800px) {
 
 
@@ -131,17 +140,17 @@ margin-bottom: 50px;}
 .footer{display: flex;
 flex-wrap: wrap;}
 
-.fot1, .fot2{width: 90%;
+.fot1, .fot2{width: 98%;
 margin-bottom: 50px;}
 
 .fsz{
-   font-size: 80% !important}
+   font-size: 94% !important}
 .footertxt ul {
     list-style-type: none;
     width: 33%;}
 
 .fim {
-    margin-left: 20%;}
+    margin-left: 8%;}
 
 .top{
 	flex-wrap: wrap;
@@ -177,7 +186,12 @@ margin-bottom: 50px;}
 
 }
 
-
+.f4 {
+    margin-left: 10% !important;
+}
+.f3 {
+    margin-left: 18% !important;
+}
 /*----------------------------gamburger-------------*/
 /* скрываем чекбокс */
 #menu__toggle {
@@ -276,9 +290,130 @@ width: 169px}
     top: 2px;
     left: 16px;}
 
+@media (min-width: 650px) and (max-width: 800px) {
+.hamburger-menu{
+	visibility: visible;}
+}
+
+
+
+@media (min-width: 500px) and (max-width: 650px) {
+
+.center{ display: flex;
+    flex-wrap: wrap;}
+
+.cent1, .cent2, .cent3 {
+    width: 90%;
+    height: 270px;
+margin-bottom: 50px;}
+
+.nav{display: none;}
+
+.content {
+    margin-left: 15px;
+    margin-right: 15px;}
 
 .hamburger-menu{
-	display: block;
+	visibility: visible;}
+
+.top{
+	flex-wrap: wrap;
+	display: flex;}
+.first{
+	 width: 44% !important}
+	
+
+.first1{
+	 width: 44% !important}
+		
+
+.first2{
+	 width: 44% !important}
+	
+
+.first3{
+	 width: 44% !important}
+
+.footer{
+	display: flex;
+	flex-wrap: wrap;}
+
+.fot1{width: 90%;
+margin-bottom: 50px;
+margin-top: -50px;}
+.fot2{width: 90%;}
+
+.footertxt ul {
+    list-style-type: none;
+    width: 43%;
+}
+.fim {
+    margin-left: 11%;
+}
+}
+
+
+@media (min-width: 100px) and (max-width: 500px) {
+
+.center{ display: flex;
+    flex-wrap: wrap;}
+
+.cent1, .cent2, .cent3 {
+    width: 90%;
+    height: 270px;
+margin-bottom: 50px;}
+
+.nav{display: none;}
+
+.content {
+    margin-left: 15px;
+    margin-right: 15px;}
+
+.hamburger-menu{
+	visibility: visible;}
+
+.top{
+	flex-wrap: wrap;
+	display: flex;}
+.first{
+	 width: 90% !important;
+	    height: 162px !important;}
+	
+
+.first1{
+	 width: 90% !important;
+	    height: 162px !important;}
+		
+
+.first2{
+	 width: 90% !important;
+	    height: 162px !important;}
+
+
+.first3{
+	 width: 90% !important;
+	    height: 162px !important;}
+
+.footer{
+	display: flex;
+	flex-wrap: wrap;}
+
+.fot1{width: 90%;
+margin-bottom: 50px;
+margin-top: -50px;}
+.fot2{width: 90%;}
+
+.footertxt ul {
+    list-style-type: none;
+    width: 43%;
+}
+.fim {
+    margin-left: 11%;
+}
+
+.fim {
+    margin-left: 5%;
+}
 }
 
 
@@ -289,17 +424,6 @@ width: 169px}
 
 
 
-
-
-
-
-
-
-
-
-
-/* Small Devices, Tablets */
-@media only screen and (max-width : 768px) {
 
 	/*Disable Animation on Mobile Devices*/
 	.animated {
@@ -323,42 +447,3 @@ width: 169px}
 		animation: none !important;
 	}
 
-}
-
-/* Extra Small Devices, Phones */
-@media only screen and (max-width : 480px) {
-
-}
-
-/* Custom, iPhone Retina */
-@media only screen and (max-width : 320px) {
-
-}
-
-
-/*==========  Mobile First Method  ==========*/
-
-/* Custom, iPhone Retina */
-@media only screen and (min-width : 320px) {
-
-}
-
-/* Extra Small Devices, Phones */
-@media only screen and (min-width : 480px) {
-
-}
-
-/* Small Devices, Tablets */
-@media only screen and (min-width : 768px) {
-
-}
-
-/* Medium Devices, Desktops */
-@media only screen and (min-width : 992px) {
-
-}
-
- /* Large Devices, Wide Screens */
-@media only screen and (min-width : 1200px) {
-
-}
