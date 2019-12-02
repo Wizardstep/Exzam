@@ -2,6 +2,10 @@
   -webkit-box-shadow: 4px 4px 2px #c3c3c3;
   box-shadow: 4px 4px 2px #c3c3c3; }
 
+.dash1, .dash2:hover, .top .icn, .center .immg, .yellow, .blue {
+  -webkit-box-shadow: 3px 3px 2px #c3c3c3;
+  box-shadow: 3px 3px 2px #c3c3c3; }
+
 * {
   padding: 0;
   margin: 0; }
@@ -43,7 +47,7 @@ h4 {
   list-style-type: none; }
   .navlist li {
     margin: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 19px;
     margin-top: 15px; }
     .navlist li a {
       color: black;
@@ -61,7 +65,7 @@ h4 {
   background-position: 9px center; }
 
 .dash2 {
-  padding: 10px 33px 10px 5px;
+  padding: 10px 34px 10px 5px;
   background-image: url(../icons/account_gray.svg);
   background-repeat: no-repeat;
   background-size: 20px 20px;
@@ -190,14 +194,17 @@ h4 {
 hr {
   width: 91%;
   background-color: #e5e5e5;
-  margin-left: 5%; }
+  margin-left: 5%;
+  border: none;
+  border-bottom: 2px solid #e5e5e5; }
 
 .hr {
   width: 91%;
   height: 2px;
   display: block;
   background-color: #e5e5e5;
-  margin-left: 5%; }
+  margin-left: 5%;
+  margin-top: 8%; }
 
 @-moz-document url-prefix() {
   .hr {
@@ -220,7 +227,7 @@ hr {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  margin-top: 8px;
+  margin-top: 0px;
   margin-left: 26px; }
   .foot .icnfoot {
     width: 17px;
@@ -237,7 +244,7 @@ hr {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  margin-top: 28px;
+  margin-top: 17px;
   margin-left: 26px; }
   .foot2 .icnfoot2 {
     width: 17px;
@@ -254,7 +261,7 @@ hr {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  margin-top: 28px;
+  margin-top: 17px;
   margin-left: 20px; }
   .foot3 .icnfoot3 {
     width: 17px;
@@ -271,7 +278,7 @@ hr {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  margin-top: 28px;
+  margin-top: 17px;
   margin-left: 26px; }
   .foot4 .icnfoot4 {
     width: 17px;
@@ -505,5 +512,5 @@ hr {
       .footertxt ul li a:hover {
         text-decoration: underline; }
 
-.hamburger-menu {
-  visibility: hidden; }
+.navvv {
+  display: none; }
