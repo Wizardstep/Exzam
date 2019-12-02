@@ -45,6 +45,9 @@
 .first1{
 	 width: 44% !important}
 		
+.hr{
+  margin-top: 2%;
+}
 
 .first2{
 	 width: 44% !important}
@@ -144,6 +147,10 @@ margin-bottom: 50px;}
 .content {
     margin-left: 15px;
     margin-right: 15px;
+}
+
+.hr{
+  margin-top: 2%;
 }
 
 .footer{display: flex;
@@ -745,6 +752,10 @@ width: 169px}
 
 .navvv{
  display: block}
+
+.hr{
+  margin-top: 2%;
+}
 
 }
 
