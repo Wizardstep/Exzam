@@ -125,8 +125,8 @@ h4 {
   background-position: 9px center; }
 
 .content {
-  margin-left: 177px;
-  margin-right: 10px; }
+  margin-left: 193px;
+  margin-right: 23px; }
   .content h3 {
     font-size: 22px;
     padding-top: 20px;
@@ -136,8 +136,9 @@ h4 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-  justify-content: space-around; }
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
   .top .icn {
     width: 23%;
     position: relative;
@@ -145,7 +146,7 @@ h4 {
     left: 20px; }
   .top .first {
     width: 23.5%;
-    height: 138px;
+    height: 178px;
     background-color: #f6f6f6;
     margin-top: 60px; }
   .top a {
@@ -159,17 +160,17 @@ h4 {
     text-decoration: underline; }
   .top .first1 {
     width: 23.5%;
-    height: 138px;
+    height: 178px;
     background-color: #f6f6f6;
     margin-top: 60px; }
   .top .first2 {
     width: 23.5%;
-    height: 138px;
+    height: 178px;
     background-color: #f6f6f6;
     margin-top: 60px; }
   .top .first3 {
     width: 23.5%;
-    height: 138px;
+    height: 178px;
     background-color: #f6f6f6;
     margin-top: 60px; }
 
@@ -204,20 +205,21 @@ hr {
   display: block;
   background-color: #e5e5e5;
   margin-left: 5%;
-  margin-top: 8%; }
+  margin-top: 7%; }
 
 @-moz-document url-prefix() {
   .hr {
     position: relative;
-    top: 20px; }
+    top: 20px;
+    margin-top: 0%; }
   .foot {
-    margin-top: 6px !important; }
+    margin-top: 21px !important; }
   .foot2 {
-    margin-top: 27px !important; }
+    margin-top: 40px !important; }
   .foot3 {
-    margin-top: 27px !important; }
+    margin-top: 40px !important; }
   .foot4 {
-    margin-top: 27px !important; } }
+    margin-top: 40px !important; } }
 
 .foot {
   list-style-type: none;
@@ -227,7 +229,7 @@ hr {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  margin-top: -9px;
+  margin-top: 0px;
   margin-left: 26px; }
   .foot .icnfoot {
     width: 17px;
@@ -244,7 +246,7 @@ hr {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  margin-top: 10px;
+  margin-top: 18px;
   margin-left: 26px; }
   .foot2 .icnfoot2 {
     width: 17px;
@@ -261,7 +263,7 @@ hr {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  margin-top: 10px;
+  margin-top: 18px;
   margin-left: 20px; }
   .foot3 .icnfoot3 {
     width: 17px;
@@ -278,7 +280,7 @@ hr {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  margin-top: 10px;
+  margin-top: 18px;
   margin-left: 26px; }
   .foot4 .icnfoot4 {
     width: 17px;
@@ -291,8 +293,9 @@ hr {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-  justify-content: space-around;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   margin-top: 60px; }
   .center .immg {
     width: 87%;
@@ -348,18 +351,19 @@ hr {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-  justify-content: space-around;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   margin-top: 60px; }
 
 .fot1 {
   width: 47%;
-  height: 300px;
+  height: 325px;
   background-color: #f6f6f6; }
 
 .fot2 {
   width: 47%;
-  height: 300px;
+  height: 325px;
   background-color: #f6f6f6; }
 
 .yellow {
@@ -417,7 +421,7 @@ hr {
 
 .fim {
   width: 3%;
-  margin-left: 8%;
+  margin-left: 29%;
   margin-top: 11px; }
 
 .fim2 {
@@ -446,37 +450,37 @@ hr {
     .table ul li {
       display: inline-block; }
     .table ul li:nth-child(1) {
-      margin-left: 9%;
-      margin-bottom: 5px;
-      margin-top: 5px; }
+      margin-left: 11%;
+      margin-bottom: 8px;
+      margin-top: 8px; }
     .table ul li:nth-child(2) {
-      margin-left: 8%;
-      margin-bottom: 5px;
-      margin-top: 5px; }
+      margin-left: 14%;
+      margin-bottom: 8px;
+      margin-top: 8px; }
     .table ul li:nth-child(3) {
-      margin-left: 8%;
-      margin-bottom: 5px;
-      margin-top: 5px; }
+      margin-left: 16%;
+      margin-bottom: 8px;
+      margin-top: 8px; }
     .table ul li:nth-child(4) {
-      margin-left: 8%;
-      margin-bottom: 5px;
-      margin-top: 5px; }
+      margin-left: 17%;
+      margin-bottom: 8px;
+      margin-top: 8px; }
 
 .blues {
   color: #72b0ad; }
 
 .f1 {
-  margin-left: 9% !important; }
+  margin-left: 11% !important; }
 
 .f2 {
-  margin-left: 6% !important; }
+  margin-left: 12% !important; }
 
 .f3 {
-  margin-left: 16% !important;
-  padding-right: 0% !important; }
+  margin-left: 23% !important;
+  padding-right: 10% !important; }
 
 .f4 {
-  margin-left: 10% !important; }
+  margin-left: 8% !important; }
 
 .footerline {
   width: 100vw;
