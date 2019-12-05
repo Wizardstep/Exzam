@@ -219,7 +219,10 @@ hr {
   .foot3 {
     margin-top: 40px !important; }
   .foot4 {
-    margin-top: 40px !important; } }
+    margin-top: 40px !important; }
+  .mrt {
+    margin-top: 1% !important;
+    margin-bottom: 1% !important; } }
 
 .foot {
   list-style-type: none;
@@ -421,12 +424,16 @@ hr {
 
 .fim {
   width: 3%;
-  margin-left: 29%;
-  margin-top: 11px; }
+  float: right;
+  margin-top: 11px;
+  margin-right: 5%;
+  margin-left: 1.8%; }
 
 .fim2 {
   width: 3%;
-  margin-left: 2%; }
+  margin-left: 2%;
+  float: right;
+  margin-top: 11px; }
 
 .forma {
   margin-left: 9%;
@@ -437,6 +444,10 @@ hr {
 
 .fsz {
   font-size: 85%; }
+
+.mrt {
+  margin-top: 1.5%;
+  margin-bottom: 1.5%; }
 
 .bloespan {
   margin-top: 20px;
