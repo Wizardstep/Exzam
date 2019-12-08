@@ -1,35 +1,103 @@
 /*==========  Desktop First Method  ==========*/
 
 /* Large Devices, Wide Screens */
+
+
+
+@media (min-width: 1701px) and (max-width: 1990px){
+
+.fsz{font-size: 127%}
+
+}
+
+
+
+
+@media (min-width: 1500px) and (max-width: 1700px){
+
+.fsz{font-size: 112%}
+
+}
+
+
+
+@media (min-width: 1239px) and (max-width: 1380px){
+
+.fsz{font-size: 80%}
+
+
+
+
+}
+
+
+
+@media (min-width: 1050px) and (max-width: 1245px){
+.fsz {
+  font-size: 84% }
+}
+
+
+
+
+@media (min-width: 832px) and (max-width: 1200px){
+.immg {
+  width: 92% !important;
+  height: 187px !important;
+  top: -58px !important;
+  margin-left: -9.5% !important;}
+
+/*.fsz {
+  font-size: 67% !important}
+
+}*/
+
+}
+
+
 @media (min-width: 1200px) and (max-width: 1245px) {
-.fim{
+/*.fim{
 	width: 3%;
-	margin-left: 8%;
+	margin-left: 4%;
 	margin-top: 11px}
 
 .fim2{
 	width: 3%;
-	margin-left: 2%}
+	margin-left: 2%}*/
 
-.forma{
+/*.forma{
 	margin-left: 6%;
-	margin-right: 2%}
+	margin-right: 2%}*/
 	
-.letleft{
-	margin-left: 11%
-}
 
 
-.fsz{
-   font-size: 80%
-}
+
+
 
 
 
 }
+
+
+
+
+@media (min-width: 999px) and (max-width: 1040px){
+
+.labelll {
+  width: 73% !important}
+
+.fsz{font-size: 80%}
+}
+
+
 
 
 @media (min-width: 800px) and (max-width: 1000px) {
+
+.formas{
+  margin-top: 0%
+}
+
 
 .footertxt ul {
     list-style-type: none;
@@ -39,21 +107,21 @@
 	flex-wrap: wrap;
 	display: flex;}
 .first{
-	 width: 44% !important}
+	 width: 49% !important}
 	
 .first1{
-	 width: 44% !important}
+	 width: 49% !important}
 		
 .hr{
   margin-top: 2%;
 }
 
 .first2{
-	 width: 44% !important}
+	 width: 49% !important}
 	
 
 .first3{
-	 width: 44% !important}
+	 width: 49% !important}
 .cent1, .cent2, .cent3 {
     width: 31%;
     height: 269px;}	
@@ -64,11 +132,11 @@
 .footer{display: flex;
 flex-wrap: wrap;}
 
-.fot1, .fot2{width: 90% !important;
+.fot1, .fot2{width: 100% !important;
 margin-bottom: 50px;}
 
 .fsz{
-   font-size: 100% ! important}
+   font-size: 113% ! important}
 
 
 .table ul li:nth-child(3) {
@@ -104,15 +172,16 @@ margin-bottom: 50px;}
 /* Medium Devices, Desktops */
 @media (max-width : 1199px) {
  .fsz{
-   font-size: 70%
+   font-size: 65%
 }
 
-.fim {
+/*.fim {
     width: 3%;
     margin-left: 3%;
     margin-top: 11px;
-}
+}*/
 
+.fot2{height: 325px;}
 .fot1 {
     width: 47%;
     height: 325px;
@@ -123,10 +192,10 @@ margin-bottom: 50px;}
 
 @media (max-width : 1099px) {
  .fsz{
-   font-size: 66%}
-.fim{
+   font-size: 65%}
+/*.fim{
  margin-left: 3%
-}
+}*/
 
 .f3{
   margin-left: 19% !important
@@ -135,11 +204,16 @@ margin-bottom: 50px;}
   margin-left: 11% !important
 }
 
+.fot2{
+  height: 325px;
+}
+.f2{
+  margin-left: 10% !important;}
 
-.fim {
+/*.fim {
     width: 3%;
     margin-top: 11px;
-}
+}*/
 
 
 }
@@ -160,6 +234,11 @@ margin-bottom: 50px;}
 @media (min-width: 650px) and (max-width: 800px) {
 
 
+.formas{
+  margin-top: 0%
+}
+
+
 .nav{display: none;}
 
 .content {
@@ -174,11 +253,11 @@ margin-bottom: 50px;}
 .footer{display: flex;
 flex-wrap: wrap;}
 
-.fot1, .fot2{width: 98%;
+.fot1, .fot2{width: 100%;
 margin-bottom: 50px;}
 
 .fsz{
-   font-size: 94% !important}
+   font-size: 108% !important}
 .footertxt ul {
     list-style-type: none;
     width: 33%;}
@@ -190,19 +269,19 @@ margin-bottom: 50px;}
 	flex-wrap: wrap;
 	display: flex;}
 .first{
-	 width: 44% !important}
+	 width: 49% !important}
 	
 
 .first1{
-	 width: 44% !important}
+	 width: 49% !important}
 		
 
 .first2{
-	 width: 44% !important}
+	 width: 49% !important}
 	
 
 .first3{
-	 width: 44% !important}
+	 width: 49% !important}
 
 .upline {
     width: 176px;}
@@ -381,7 +460,7 @@ width: 169px}
 .cent1, .cent2, .cent3 {
     width: 90%;
     height: 270px;
-margin-bottom: 50px;}
+margin-bottom: 85px;}
 
 .nav{display: none;}
 
@@ -585,7 +664,7 @@ width: 169px}
 .cent1, .cent2, .cent3 {
     width: 90%;
     height: 270px;
-margin-bottom: 50px;}
+margin-bottom: 85px;}
 
 .nav{display: none;}
 

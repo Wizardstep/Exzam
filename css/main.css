@@ -299,13 +299,13 @@ hr {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  margin-top: 60px; }
+  margin-top: 90px; }
   .center .immg {
-    width: 87%;
-    height: 157px;
+    width: 75%;
+    height: 187px;
     position: relative;
-    top: -29px;
-    left: 6.5%; }
+    top: -58px;
+    left: 13.5%; }
 
 .cent1 {
   width: 32%;
@@ -347,7 +347,7 @@ hr {
   margin-right: 8px; }
 
 .upline {
-  margin-top: -10px;
+  margin-top: -41px;
   margin-bottom: 10px; }
 
 .footer {
@@ -361,12 +361,12 @@ hr {
 
 .fot1 {
   width: 47%;
-  height: 325px;
+  height: 380px;
   background-color: #f6f6f6; }
 
 .fot2 {
   width: 47%;
-  height: 325px;
+  height: 380px;
   background-color: #f6f6f6; }
 
 .yellow {
@@ -423,31 +423,24 @@ hr {
   background-color: #dead49; }
 
 .fim {
-  width: 3%;
-  float: right;
-  margin-top: 11px;
-  margin-right: 5%;
-  margin-left: 1.8%; }
+  width: 50%; }
 
 .fim2 {
-  width: 3%;
-  margin-left: 2%;
-  float: right;
-  margin-top: 11px; }
+  width: 50%; }
 
-.forma {
-  margin-left: 9%;
-  margin-right: 2%; }
-
-.letleft {
-  margin-left: 14%; }
-
-.fsz {
-  font-size: 85%; }
+.labelll {
+  width: 76%; }
 
 .mrt {
   margin-top: 1.5%;
-  margin-bottom: 1.5%; }
+  margin-bottom: 1.5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  padding-left: 5%;
+  padding-right: 5%; }
 
 .bloespan {
   margin-top: 20px;
@@ -466,7 +459,7 @@ hr {
     .table ul li:nth-child(1) {
       margin-bottom: 8px;
       display: inline-block;
-      margin-top: 8px; }
+      margin-top: 13px; }
     .table ul li:nth-child(2) {
       margin-bottom: 8px;
       display: inline-block;
@@ -532,3 +525,6 @@ hr {
 
 .navvv {
   display: none; }
+
+.formas {
+  margin-top: 5%; }
